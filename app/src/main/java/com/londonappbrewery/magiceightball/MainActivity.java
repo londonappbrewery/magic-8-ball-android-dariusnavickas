@@ -30,9 +30,9 @@ public class MainActivity extends AppCompatActivity {
         askButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Random randomNumber = new Random(4);
+                Random randomNumber = new Random();
 
-                ballDisplay.setImageResource(ballArray[randomNumber.nextInt()]);
+                ballDisplay.setImageResource(ballArray[randomNumber.nextInt(4)]);
             }
         });
 

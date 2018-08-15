@@ -29,6 +29,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
+        android:background="#3F51B5"
         android:text="@string/decision_text"
         android:textColor="@android:color/background_dark"
         android:textSize="20sp"
