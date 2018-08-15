@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Random randomNumber = new Random();
 
-                ballDisplay.setImageResource(ballArray[randomNumber.nextInt(4)]);
+                ballDisplay.setImageResource(ballArray[randomNumber.nextInt(5)]);
             }
         });
 
